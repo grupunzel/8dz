@@ -1,0 +1,13 @@
+class circle():
+    def __init__(self):
+        self.radius = int(input("Enter the radius: "))
+        
+    def area(self):
+        print("Area of the circle is", 3.14 * (self.radius ** 2))
+    
+    def perimeter(self):
+        print("Perimeter of the circle is", 2 * 3.14 * self.radius)
+        
+circle1 = circle()
+circle1.area()
+circle1.perimeter()
